@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-  padding: 4em;
+  display: flex;
+  padding: 4%;
   background: papayawhip;
 `
