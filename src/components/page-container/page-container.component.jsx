@@ -10,4 +10,4 @@ const PageContainer = () => {
 
 }
 
-export default PageContainer
+export default PageContainer()

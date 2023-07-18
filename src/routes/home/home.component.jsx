@@ -1,22 +1,26 @@
-import {Container} from "../../components/page-container/page-container.styles";
+import ProjectCard from "../../components/project-card/project-card.component"
 
 const Home = () => {
 
-  return(
+  return (
     <>
       <container>
 
-        <section>
-          <h1>Andrew Heyer</h1>
-          <h2>Full Stack Developer</h2>
-        </section>
+        <h1>Andrew Heyer</h1>
+        <h2>Full Stack Developer</h2>
 
-        <space/>
+        <p>Full Stack Developer living in Las Vegas USA, former Software Engineer at</p>
+        <p>the Vera Rubin Observatory, bachelors from the University of Arizona.</p>
 
-        <section>
-          <p>Full Stack Developer living in Las Vegas USA, former Software Engineer at</p>
-          <p>the Vera Rubin Observatory, bachelors from the University of Arizona.</p>
-        </section>
+        <h2>Projects</h2>
+        <ProjectCard/>
+
+
+        <h2>Activities</h2>
+
+        <h2>Resume</h2>
+
+
       </container>
     </>
   )
