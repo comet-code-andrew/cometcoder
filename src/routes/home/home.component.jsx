@@ -1,6 +1,11 @@
 import ProjectCard from "../../components/project-card/project-card.component"
+import WorkHistory from "../../components/work-history/work-history.component";
+
 import Divider from "@mui/material/Divider";
 import {CustomDivider} from "../../components/project-card/project-card.styles";
+
+
+
 
 const Home = () => {
 
@@ -20,18 +25,14 @@ const Home = () => {
         <h2>Projects</h2>
         <CustomDivider />
         <spacer/>
-
-
         <ProjectCard/>
-
 
         <h2>Work History</h2>
         <Divider />
+        <spacer/>
+        <WorkHistory/>
 
-
-        <h2>Resume</h2>
-        <Divider />
-
+        <spacer/>
 
 
       </container>

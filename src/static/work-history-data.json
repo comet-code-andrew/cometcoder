@@ -1,0 +1,23 @@
+{
+  "aura":
+  [
+    "Evaluated and led the acquisition of a software deliverable for the Telescope Mount Assembly, valued at 800,000 USD.",
+    "Worked with a systems engineer, personally reviewing 100+ requirements and writing 20+ procedures for verifying newly delivered software.",
+    "Coordinated, led and documented weekly software meetings for 2 years with vendors and team members located in 3 distinct time zones. Sent reports to upper management and presented status in meetings.",
+    "Improved a multi-process scheduling algorithm designed to make efficient use of the Rubin Observatory's observing time.",
+    "Converted 5+ software packages into Docker deployable solutions to allow for CI/CD.",
+    "Took initiative and led a documentation cleanup effort by creating uniformity between the",
+    "software architecture of the observatory and the file based hierarchy of the Software team's",
+    "documentation. Reviewed between 200-500 pages of documentation, much of which was written before my hire or by other members.,",
+    "Coordinated with an internal Chile based IT department to deploy requisitioned hardware. I assisted in the retrieval, unpacking and physical installation onto the server.",
+    "Developed 10+ TCL scripts which generated C++ software that were used to test lower level communication software."
+  ],
+  "bio":
+  [
+    "Lead App approval and submission process through Apple Store, submitting apps verifying app features using Apple’s TestFlight tool.",
+    "Implemented Google location API, push notifications, and language localization features into the app.",
+    "Created and maintained multiple Angular templates to receive user input and pass data to the backend.",
+    "Communicate with client updates, feature ETA’s and questions.",
+    "Code documentation & revision. Test, fix, debug, approve pull requests."
+  ]
+}

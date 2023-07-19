@@ -7,9 +7,9 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 
 
-import yogicometImage from '../../images/project-images/yogicomet.png';
-import pokedexImage from '../../images/project-images/pokedex.png';
-import cometcodersImage from '../../images/project-images/cometcoders.png';
+import yogicometImage from '../../static/images/project-images/yogicomet.png';
+import pokedexImage from '../../static/images/project-images/pokedex.png';
+import cometcodersImage from '../../static/images/project-images/cometcoders.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 
@@ -91,8 +91,8 @@ const ProjectCard = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small" startIcon={<LaunchIcon/>} target={"_blank"} href="https://pokedex.cometcode.com/">Visit</Button>
-              <Button size="small" startIcon={<GitHubIcon/>} target={"_blank"} href="https://github.com/comet-code-andrew/pokemon-rolodex">Github</Button>
+              <Button size="small" startIcon={<LaunchIcon/>} target={"_blank"} href="http://cometcoders.com/">Visit</Button>
+              <Button size="small" startIcon={<GitHubIcon/>} target={"_blank"} href="https://github.com/thecometcoders/cometcoders">Github</Button>
             </CardActions>
           </Card>
         </Grid>
