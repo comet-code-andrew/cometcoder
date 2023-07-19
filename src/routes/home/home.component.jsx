@@ -1,4 +1,6 @@
 import ProjectCard from "../../components/project-card/project-card.component"
+import Divider from "@mui/material/Divider";
+import {CustomDivider} from "../../components/project-card/project-card.styles";
 
 const Home = () => {
 
@@ -8,17 +10,28 @@ const Home = () => {
 
         <h1>Andrew Heyer</h1>
         <h2>Full Stack Developer</h2>
+        <CustomDivider />
+        <spacer/>
 
-        <p>Full Stack Developer living in Las Vegas USA, former Software Engineer at</p>
-        <p>the Vera Rubin Observatory, bachelors from the University of Arizona.</p>
+
+        <p>Full Stack Developer living in Las Vegas USA, former Software Engineer at
+        the Vera Rubin Observatory, bachelors from the University of Arizona.</p>
 
         <h2>Projects</h2>
+        <CustomDivider />
+        <spacer/>
+
+
         <ProjectCard/>
 
 
-        <h2>Activities</h2>
+        <h2>Work History</h2>
+        <Divider />
+
 
         <h2>Resume</h2>
+        <Divider />
+
 
 
       </container>

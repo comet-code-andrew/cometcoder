@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   h1 {
-    font-size: 6em;
+    font-size: 4em;
     margin: 0;
     font-family: 'Orbitron', sans-serif;
     
@@ -11,11 +11,13 @@ const GlobalStyle = createGlobalStyle`
   h2 {
     font-family: 'Tektur', sans-serif;
     font-weight: bold;
-    margin-top: 0px;
+    margin-bottom: 0px;
   }
+
   
   p{
     font-family: 'Tektur', sans-serif;
+    margin: 0px;
   }
   
   
@@ -27,7 +29,10 @@ const GlobalStyle = createGlobalStyle`
     padding: 5%;
     background: papayawhip;
     text-align: start;
-    
+  }
+  
+  spacer {
+    padding-top: 20px;
   }
 `;
 
