@@ -2,40 +2,32 @@ import ProjectCard from "../../components/project-card/project-card.component"
 import WorkHistory from "../../components/work-history/work-history.component";
 
 import Divider from "@mui/material/Divider";
-import {CustomDivider} from "../../components/project-card/project-card.styles";
-
-
+import {Container} from "@mui/material";
+import {Typography} from "@mui/material";
 
 
 const Home = () => {
 
   return (
     <>
-      <container>
+      <Container>
 
-        <h1>Andrew Heyer</h1>
-        <h2>Full Stack Developer</h2>
-        <CustomDivider />
-        <spacer/>
+        <Typography variant="h1">Andrew Heyer</Typography>
+        <Typography variant="h3">Full Stack Developer</Typography>
+        <Typography variant="body1">Full Stack Developer living in Las Vegas USA, former Software Engineer at
+        the Vera Rubin Observatory, bachelors from the University of Arizona.</Typography>
+        <div className="spacer"/>
 
 
-        <p>Full Stack Developer living in Las Vegas USA, former Software Engineer at
-        the Vera Rubin Observatory, bachelors from the University of Arizona.</p>
-
-        <h2>Projects</h2>
-        <CustomDivider />
-        <spacer/>
+        <Typography variant="h2">Projects</Typography>
+        <div className="spacer"/>
         <ProjectCard/>
 
-        <h2>Work History</h2>
-        <Divider />
-        <spacer/>
+        <Typography variant="h2">Work History</Typography>
+        <div className="spacer"/>
         <WorkHistory/>
-
-        <spacer/>
-
-
-      </container>
+        <div className="spacer"/>
+      </Container>
     </>
   )
 
